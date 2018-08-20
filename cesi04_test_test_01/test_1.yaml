@@ -1,0 +1,17 @@
+test_in:
+  test_001:
+    age: "18"
+    name: "xiaobai"
+    height: "164"
+  test_002:
+    age: "20"
+    name: "xiaohei"
+    height: "182"
+  test_003:
+    age: "18"
+    name: "xiaohong"
+    height: "194"
+  test_004:
+    age: "17"
+    name: "xiaozhu"
+    height: "190"
