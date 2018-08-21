@@ -8,7 +8,7 @@ import allure
 
 def data_in():
     data = []
-    with open("./test_1.yaml", "r", encoding="utf-8") as f:
+    with open("../test_1.yaml", "r", encoding="utf-8") as f:
         data_1 = yaml.load(f)
         for x in data_1.values():
             for y in x.values():
