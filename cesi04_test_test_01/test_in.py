@@ -18,9 +18,8 @@ def data_in():
 
 
 class Test_01:
-    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
-    @allure.step(title="测试步骤001")
-    @pytest.mark.parametrize("a,b,c", data_in())
-    def test_01(self, a, b, c):
-        allure.attach("a","asd")
-        print(a, b, c)
+   def test_01(self):
+        assert 1
+        
+   def test_02(self):
+        assert 0
